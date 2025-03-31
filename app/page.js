@@ -1,7 +1,13 @@
+'use client';
+
+import ClientDemo from "@/components/ClientDemo";
+import RSCDemo from "@/components/RSCDeemo";
+
 export default function Home() {
   return (
     <main>
-      <p>Let's go!</p>
+      <RSCDemo />
+      <ClientDemo />
     </main>
   );
 }
