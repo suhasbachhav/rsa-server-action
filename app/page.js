@@ -8,7 +8,12 @@ export default function Home() {
   return (
     <main>
       <DataFetchingDemo />
-      <Link href='./add-data'>Add New Data</Link>
+      <p>
+        <Link href='./add-data'>Add New Data</Link>
+      </p>
+      <p>
+        <Link href='./show-data'>Show Data</Link>
+      </p>
       <ClientDemo />
       <RSCDemo />
     </main>
